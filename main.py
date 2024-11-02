@@ -3,6 +3,9 @@ import skfuzzy as fuzz
 from skfuzzy import control as ctrl
 import matplotlib.pyplot as plt
 
+
+
+#"Control Difuso de Velocidad de Ventilador en Función de Temperatura y Humedad"#
 # Definición de las variables difusas
 temperatura = ctrl.Antecedent(np.arange(0, 41, 1), 'temperatura')
 humedad = ctrl.Antecedent(np.arange(0, 101, 1), 'humedad')
